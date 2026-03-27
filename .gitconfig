@@ -1,0 +1,23 @@
+[core]
+    editor = nano
+    autocrlf = input
+    excludesfile = ~/.gitignore_global
+[init]
+    defaultBranch = main
+[alias]
+    s = status
+    c = commit -m
+    p = push
+    l = log --oneline --graph --all
+    co = checkout
+    br = branch
+    ff = flow feature
+    fr = flow release
+    fh = flow hotfix
+    fs = flow support
+[color]
+    ui = auto
+[pull]
+    rebase = true
+[push]
+    autoSetupRemote = true

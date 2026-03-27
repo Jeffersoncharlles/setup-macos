@@ -56,6 +56,25 @@ fish_add_path "$HOME/.npm-packages/bin"
 fish_add_path "$HOME/.lmstudio/bin"
 fish_add_path "$HOME/.antigravity/antigravity/bin"
 
+# Aliases de Conventional Commits (Uso: gcfeat "shortcut nano")
+alias gcfeat='git commit -m "feat: "'
+alias gcfix='git commit -m "fix: "'
+alias gcchore='git commit -m "chore: "'
+alias gcrefact='git commit -m "refactor: "'
+alias gcdocs='git commit -m "docs: "'
+alias gcstyle='git commit -m "style: "'
+alias gctest='git commit -m "test: "'
+
+# Iniciar uma nova funcionalidade (Ex: gff start minha-task)
+alias gff='git flow feature'
+alias gfr='git flow release'
+alias gfh='git flow hotfix'
+
+# Atalhos rápidos para as ações mais comuns
+alias gffs='git flow feature start'
+alias gfff='git flow feature finish'
+alias gffp='git flow feature publish'
+
 # --- ALIASES: Navegação ---
 alias l='ls -la'
 alias ls='eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions'
@@ -67,7 +86,6 @@ alias workjava="cd $HOME/Workspaces/java"
 alias workjs="cd $HOME/workjs"
 
 # --- ALIASES: Editors ---
-alias v='nvim'
 alias z='zed .'
 alias c='cursor .'
 alias nano='/opt/homebrew/bin/nano'

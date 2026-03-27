@@ -47,10 +47,18 @@ alias workjava="cd $HOME/Workspaces/java"
 alias workjs="cd $HOME/workjs"
 
 # Editors
-alias v='nvim'
 alias z='zed .'
 alias c='cursor .'
 alias nano='/opt/homebrew/bin/nano'
+
+# Aliases de Conventional Commits (Uso: gcfeat "shortcut nano")
+alias gcfeat='git commit -m "feat: "'
+alias gcfix='git commit -m "fix: "'
+alias gcchore='git commit -m "chore: "'
+alias gcrefact='git commit -m "refactor: "'
+alias gcdocs='git commit -m "docs: "'
+alias gcstyle='git commit -m "style: "'
+alias gctest='git commit -m "test: "'
 
 # Development & Docker
 alias dps='docker ps'
