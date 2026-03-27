@@ -1,0 +1,25 @@
+# --- Configurações de Interface ---
+set tabsize 4
+set tabstospaces
+set autoindent
+set trimblanks
+set linenumbers
+set constantshow
+set mouse
+
+# --- Configurações de Cores ---
+set titlecolor white,red
+set keycolor cyan
+set functioncolor cyan
+set numbercolor yellow
+
+# --- Syntax Highlighting (Cores para Código) ---
+# Tenta carregar as definições de cores do Homebrew (onde estão as mais novas)
+include "/opt/homebrew/share/nano/*.nanorc"
+include "/usr/local/share/nano/*.nanorc"
+
+# Backup para definições do sistema (macOS)
+include "/usr/share/nano/*.nanorc"
+
+# Habilita o scroll suave para não "pular" linhas
+set smooth
