@@ -14,12 +14,7 @@ set functioncolor cyan
 set numbercolor yellow
 
 # --- Syntax Highlighting (Cores para Código) ---
-# Tenta carregar as definições de cores do Homebrew (onde estão as mais novas)
+# No Apple Silicon (M1/M3), o Homebrew instala as sintaxes aqui:
 include "/opt/homebrew/share/nano/*.nanorc"
-include "/usr/local/share/nano/*.nanorc"
 
-# Backup para definições do sistema (macOS)
-include "/usr/share/nano/*.nanorc"
-
-# Habilita o scroll suave para não "pular" linhas
-set smooth
+# As linhas /usr/local e /usr/share foram removidas pois causavam erro no seu Mac.
