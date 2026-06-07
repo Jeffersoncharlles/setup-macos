@@ -51,8 +51,8 @@ brew "opencode"       # Agente de IA open source no terminal
 
 # --- BUILD TOOLS BÁSICOS ---
 
-brew "cmake"      # Build de algumas dependências nativas
-brew "pkgconf"    # Localiza bibliotecas nativas durante instalação/build
+# brew "cmake"      # Build de algumas dependências nativas
+# brew "pkgconf"    # Localiza bibliotecas nativas durante instalação/build
 
 # --- CONTAINERS ---
 
@@ -73,3 +73,11 @@ cask "anydesk"                # Acesso remoto
 cask "filezilla"              # Cliente FTP/SFTP
 cask "logi-options+"          # Logitech Options+ para mouse/teclado
 cask "paragon-ntfs"           # Leitura/escrita em discos NTFS no macOS
+
+# --- AUDIO / VIDEO / VPN / NETWORK ---
+
+cask "finetune"               # Controle de volume/equalizador por aplicativo
+cask "obs"                    # Gravação e transmissão de tela
+cask "nordvpn"                # VPN NordVPN
+cask "wireguard"              # Cliente WireGuard VPN
+# cask "angry-ip-scanner"       # Scanner de IP/rede; cask deprecated no Homebrew
