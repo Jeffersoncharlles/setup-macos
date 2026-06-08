@@ -80,4 +80,5 @@ cask "finetune"               # Controle de volume/equalizador por aplicativo
 cask "obs"                    # Gravação e transmissão de tela
 cask "nordvpn"                # VPN NordVPN
 cask "wireguard"              # Cliente WireGuard VPN
-# cask "angry-ip-scanner"       # Scanner de IP/rede; cask deprecated no Homebrew
+cask "angry-ip-scanner"       # Scanner de IP/rede; cask deprecated no Homebrew
+cask "vlc"                    # Reprodutor de vídeo e áudio
